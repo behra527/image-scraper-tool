@@ -29,54 +29,7 @@
 4. 🧹 **Clean** — Removes duplicates, invalid URLs, or incomplete downloads.
 
 
-## 🚀 **Quick Start**
 
-### **1️⃣ Clone the Repository**
-```bash
-git clone https://github.com/yourusername/image-scraper-tool.git
-cd image-scraper-tool
-2️⃣ Install Dependencies
-pip install -r requirements.txt
-
-3️⃣ Run the Script
-python scraper.py --query "cats" --limit 50
-
-Optional Arguments
-Argument	Description	Example
---query	Keyword or phrase to search for	"mountains"
---limit	Number of images to download	100
---format	File type (jpg, png, etc.)	png
---output	Output folder name	"downloads/"
-📂 Folder Structure
-image-scraper-tool/
- ┣ scraper.py
- ┣ requirements.txt
- ┣ README.md
- ┗ /downloads
-     ┗ [saved images here]
-
-🧰 Tech Stack
-
-🐍 Python 3.x
-
-🌐 Requests
-
-🔍 BeautifulSoup4
-
-🧠 (Optional) Selenium — for dynamic content scraping
-
-🛡️ Disclaimer
-
-This tool is intended for educational and research purposes only.
-Please respect website robots.txt rules and copyright laws when scraping content.
-
-💡 Future Enhancements
-
-🔁 Parallel downloads for faster performance
-
-🧠 Auto-labeling for ML datasets
-
-🗂️ Image metadata extraction (EXIF)
 
 ☁️ Cloud storage support (AWS / Google Drive)
 
